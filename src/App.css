@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height:100%;
+}
+
+.app-header {
+  display: flex;
+  align-items: center;
+  /* justify-content: right; */
+  font-size: 16px;
+  /* color: white; */
+  background-color: #21222A;
+  height: 70px;
+  padding: 8px 16px;
+  border-bottom: 1px solid rgb(236, 239, 241);
+}
+
+.header-logo {
+  margin: 0;
+  height: 50px;
+  margin-right: 9px; 
+}
+
+.header-text{
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+}
+
+.app-link {
+  color: #61dafb;
+}
+
+body {
+  margin: 0;
+  background-color: #282D35;
+}
+
+.app-section {
+    padding: 16px 0px;
+    
+    color: white;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+}
+
+.form-login {
+    width: 400px;
+    margin: 32px 0px;
+    color: white;
+}
+
+.form-login-search {
+    width: 400px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+.form-group-title {
+  color: white;
+  letter-spacing: -0.05em;
+  margin-bottom: 30px;
+}
+
+.form-label {
+  color: white;
+  font-size: medium;
+}
+
+.wallet-list > li::marker {
+  font-size: 2rem;
+  color: #61DAFB;
+}
+
+.trans-list > li {
+  font-size: small;
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  min-width: 90%;
+}
+
+.wallet-info {
+  flex-grow: 1;
+  flex-basis: 50%;
+  margin-right: auto;
+}
+
+.Send-money {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+
+.create-account {
+  flex-grow: 1;
+  flex-basis: 50%;
+  margin-left: auto;
+}
+
+.nav-link {
+  font-size: medium;
+  /* align-items: right; */
+  margin-bottom: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.text-body-1 {
+  margin-left: 20px;
+}
