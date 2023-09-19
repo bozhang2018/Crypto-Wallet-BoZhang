@@ -18,6 +18,7 @@ export default function WalletPage(){
                     address: [],
                     privkey: [],
                     balance: [],
+                    base64Image: [],
                     transactions: []
                 };
                 if (response?.data) {
@@ -26,6 +27,7 @@ export default function WalletPage(){
                     walletData.address = walletInfo.address;
                     walletData.privkey = walletInfo.privkey;
                     walletData.balance = walletInfo.balance;
+                    walletData.base64Image = walletInfo.qr_code;
                 }
                 setWallet(walletData);
             });
@@ -123,6 +125,12 @@ export default function WalletPage(){
             </div>
 
             <div className="Send-money">
+                <div className="QR-code">
+                    <div className="QR-code-title">
+                        <h1>Your Wallet QR Code</h1>
+                    </div>
+                    <img src={`data:image/png;base64,${wallet.base64Image}`} alt="QR Code" />
+                </div>
                 <form className="form-login-search form-horizontal">
                     <div className="form-group-title">
                         <h1>Search an public wallet address</h1>

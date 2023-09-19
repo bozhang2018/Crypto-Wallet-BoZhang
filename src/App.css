@@ -123,3 +123,18 @@ body {
 .text-body-1 {
   margin-left: 20px;
 }
+
+.QR-code {
+  width: 400px;
+  margin: 32px 0px;
+}
+.QR-code-title  {
+  margin-left: 50px;  
+}
+.QR-code > img {
+  height: 100px;
+  width: 100px;
+  display: block; 
+  margin-left: auto;  
+  margin-right: auto;  
+}
