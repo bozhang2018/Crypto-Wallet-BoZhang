@@ -1,5 +1,5 @@
-# PaySpaceEvaL-BoZhang
-PaySpaceEval Submission
+# Crypto-Wallet-BoZhang
+Full Stack Demo
 
 # requirement
 - Python 3.9.13
